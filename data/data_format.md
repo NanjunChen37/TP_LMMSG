@@ -1,0 +1,2 @@
+- The 7 AMP datasets are in the format of XXdataset_train/test
+- The ACP and AVP datasets are in the cv_data folder
