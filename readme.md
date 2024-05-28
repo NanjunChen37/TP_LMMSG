@@ -1,8 +1,8 @@
 ## Environments
 
-### To avoid potential dependency conflicts among Python packages, and ensure a clear configuration environment, we employed a dual-environment approach for preprocessing and model training.
+#### To avoid potential dependency conflicts among Python packages, and facilitate future upgrades, we employed a dual-environment approach for preprocessing and model training.
 
-tp_pre environment is used for structure prediction and graph construction. The key package include:
+tp_pre environment is used for structure prediction and graph construction. The key package includes:
 ```
 conda create -n tp_pre python=3.7
 conda activate tp_pre
@@ -13,7 +13,7 @@ pip install --upgrade protobuf==3.19.0
 conda install -c conda-forge -c bioconda hhsuite==3.3.0
 ```
 
-tp_lmmsg is used for feature extraction, training, and testing.The key package include: 
+tp_lmmsg is used for feature extraction, training, and testing. The key package includes: 
 ```
 conda create -n tp_lmmsg python=3.7
 conda activate tp_lmmsg
@@ -68,7 +68,7 @@ mkdir temp
     tar zxvf ncbi-blast-2.12.0+-x64-linux.tar.gz
     ```
 
-    Add the path to system envirenment in ~/.bashrc.
+    Add the path to the system environment in ~/.bashrc.
     ```
     vim ~/.bashrc
     export BLAST_HOME={your_path}/ncbi-blast-2.12.0+
@@ -82,7 +82,7 @@ mkdir temp
     ```
 
 2) Download database:
-    User can download the nrdb90.tar.gz file from our [huggingface repo](https://huggingface.co/HongHongStand/TP_LMMSG/tree/main) and decompress.
+    Users can download the nrdb90.tar.gz file from our [huggingface repo](https://huggingface.co/HongHongStand/TP_LMMSG/tree/main) and decompress it.
 
 
 ### 3. hhblits in our framework is not necessary, while user can still include the tool:
@@ -99,9 +99,9 @@ mkdir temp
     ```
 
 2) Download database:
-    The database uniclust30_2018_08 would be used. It can be download from [this link](https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz).
+    The database uniclust30_2018_08 would be used. It can be downloaded from [this link](https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz).
 
-    Once finishing downloading, rename it according to the `config.yaml` (i.e. uniclust30_2018_08).
+    Once finished downloading, rename it according to the `config.yaml` (i.e. uniclust30_2018_08).
 
 ### 4. Implementation of trRosetta model:
 
