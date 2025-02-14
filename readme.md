@@ -1,3 +1,7 @@
+## Literature Info
+For detailed model benchmarking and architecture introduction, please see the publication: [TP-LMMSG: a peptide prediction graph neural network incorporating flexible amino acid property representation](https://academic.oup.com/bib/article/25/4/bbae308/7699353)
+
+
 ## Environments
 
 #### To avoid potential dependency conflicts among Python packages, and facilitate future upgrades, we employed a dual-environment approach for preprocessing and model training.
