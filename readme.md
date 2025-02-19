@@ -110,7 +110,7 @@ mkdir temp
 ### 4. Implementation of trRosetta model:
 
 1) 
-    According to the introduction of [trRosetta](https://github.com/gjoni/trRosetta), you need to download the trRosetta [pretrain model](https://files.ipd.uw.edu/pub/trRosetta/model2019_07.tar.bz2).
+    According to the introduction of [trRosetta](https://github.com/gjoni/trRosetta), you need to download the trRosetta [pretrain model](https://files.ipd.uw.edu/pub/trRosetta/model2019_07.tar.bz2), or the other updated structure prediction model from Yang's Lab [details](https://yanglab.qd.sdu.edu.cn/trRosetta/download/user/5fwb8bfsmf/).
 
 2) 
     We have made a backup of the trRosetta pre-trained model in [huggingface repo](https://huggingface.co/HongHongStand/TP_LMMSG/tree/main) for a quick implementation.
